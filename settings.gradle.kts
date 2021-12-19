@@ -1,2 +1,2 @@
-rootProject.name = "kotlin-ledgers"
+rootProject.name = "ktlabs"
 

@@ -21,3 +21,17 @@ dependencies {
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1")
 }
+
+//application {
+//    applicationDefaultJvmArgs = listOf("-Dkotlinx.coroutine.debug")
+//}
+
+tasks {
+    compileKotlin {
+        kotlinOptions.jvmTarget = "11"
+    }
+
+    compileTestKotlin {
+        kotlinOptions.jvmTarget = "11"
+    }
+}
